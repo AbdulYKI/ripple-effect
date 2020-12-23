@@ -18,7 +18,7 @@ export class AppComponent {
     setTimeout(() => {
       console.log(i);
       this.clicks.splice(0, 1);
-    }, 10000);
+    }, 5000);
   }
   onclickOfSpan($event, c) {
     $event.stopPropagation();
@@ -26,6 +26,6 @@ export class AppComponent {
     setTimeout(() => {
       console.log(i);
       this.clicks.splice(0, 1);
-    }, 10000);
+    }, 5000);
   }
 }
