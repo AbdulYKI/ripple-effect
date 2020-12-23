@@ -1,0 +1,5 @@
+<div (click)="onclick($event)" style="background:#deae66; width:100%; height:100vh; position:relative">
+	<span (click)="onclickOfSpan($event,c)" *ngFor="let c  of clicks" style="position:absolute; left:{{c.x}}px; top:{{c.y}}px">
+&nbsp;
+</span>
+</div>
